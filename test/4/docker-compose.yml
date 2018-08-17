@@ -36,7 +36,7 @@ services:
       - php
 
   varnish:
-    image: anaxexp/varnish:$VARNISH_TAG
+    image: anaxexp/wordpress-varnish:$VARNISH_TAG
     depends_on:
       - nginx
     environment:
