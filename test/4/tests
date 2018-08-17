@@ -18,5 +18,9 @@ wp plugin install redis-cache --activate
 wp plugin install vcaching --activate
 
 echo -n "Checking WordPress homepage... "
-curl -s -H "host: ${WP_DOMAIN}" "nginx" | grep -q "Welcome to WordPress"
+until [[ `curl -s -H "host: ${WP_DOMAIN}" "nginx" | grep -q "WordPress"`  ]]
+do
+  echo "WordPress is not healthly...."
+  sleep 5
+done
 echo "OK"
