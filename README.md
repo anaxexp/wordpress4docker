@@ -6,9 +6,9 @@
 
 WordPress4Docker is a set of docker images optimized for WordPress. Use docker-compose.yml file from this repository to spin up a local environment for WordPress on Linux, macOS and Windows. 
 
-* Read the docs on [**how to use**](https://docs.anaxexp.com/stacks/wordpress/local#usage)
+* Read the docs on [**how to use**](https://docs.anaxexp.io/stacks/wordpress/local#usage)
 * Follow [us on Twitter](https://twitter.com/anaxexphq) to track future updates
-* Join [community slack](https://slack.anaxexp.com) to ask questions
+* Join [community teams](https://teams.microsoft.com/l/channel/19%3a2c54fc891a264d6b987d8942cc18102f%40thread.skype/General?groupId=17fe7a72-6996-4aaf-80da-1966225fb2b2&tenantId=9fd980e1-0d69-4d90-9337-2490e573b2b3) to ask questions
 
 ## Stack
 
@@ -48,7 +48,7 @@ Full documentation is available at https://docs.anaxexp.com/stacks/wordpress/loc
 
 ## Beyond local environment
 
-WordPress4Docker is a project designed to help you spin up local environment with docker-compose. If you want to deploy a consistent stack with orchestrations to your own server, check out [![WordPress stack on AnaxExp](https://www.google.com/s2/favicons?domain=anaxexp.com) AnaxExp](https://anaxexp.com/stacks/wordpress).
+WordPress4Docker is a project designed to help you spin up local environment with docker-compose. If you want to deploy a consistent stack with orchestrations to your own server, check out [![WordPress stack on AnaxExp](https://www.google.com/s2/favicons?domain=anaxexp.com) AnaxExp](https://anaxexp.io/stacks/wordpress).
 
 ## Maintenance
 
